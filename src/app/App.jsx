@@ -15,7 +15,6 @@ function App() {
             <h1>App</h1>
             <Switch>
                 <Route exact path="/" component={Home} />
-                <Route path="/dashboard/stats" component={Stats} />
                 <Route path="/dashboard" component={Dashboard} />
                 <Route path="/login" component={Login} />
                 <Route path="/posts/:postId?" component={Posts} />
